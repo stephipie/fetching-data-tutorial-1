@@ -32,6 +32,10 @@ body {
     background-color: aquamarine; */
 }
 
+#title-container {
+    border: 1px solid black;
+}
+
 #header-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
