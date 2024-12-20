@@ -7,6 +7,7 @@ const imageList = document.getElementById('image-list');
 // Define an array for users
 let users = []; 
 let images = []; // to be filled with images from api endpoint https://jsonplaceholder.typicode.com/photos
+let title = []; // to be filled with album title from api endpoint https://jsonplaceholder.typicode.com/albums
 
 // define async function to fetch users data
 async function fetchUserData(){
